@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikola.callblockingtestdemo.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/finalcar" />
+
+    <TextView
+        android:id="@+id/SafeDriveTest"
+        android:layout_width="201dp"
+        android:layout_height="98dp"
+        android:fontFamily="@font/syncopate"
+        android:text="safe drive"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F5F3F3"
+        android:textColorHighlight="#F8F7F7"
+        android:textColorLink="#00F7F3F3"
+        android:textSize="40sp"
+        app:fontFamily="@font/syncopate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.09"
+        tools:targetApi="jelly_bean" />
+
+    <Button
+        android:id="@+id/Start1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#BFC8C8C8"
+        android:fontFamily="@font/syncopate"
+        android:onClick="Start"
+        android:text="Start"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:fontFamily="@font/syncopate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.916"
+        tools:targetApi="jelly_bean" />
+
+    <Button
+        android:id="@+id/End1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#BFC8C8C8"
+        android:fontFamily="@font/syncopate"
+        android:onClick="End"
+        android:text="End"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:fontFamily="@font/syncopate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.989"
+        tools:targetApi="jelly_bean" />
+
+    <Button
+        android:id="@+id/Ignore"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.227" />
+
+
+</android.support.constraint.ConstraintLayout>
