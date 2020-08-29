@@ -1,5 +1,5 @@
 # Safe Drive
-An application that aims to prevent distracted driving by blocking notificans and calls when a user is driving.
+An application that aims to prevent distracted driving by blocking notifications and calls when a user is driving.
 
 # Features
 Blocks Texts, Calls and Notifications: SafeDrive blocks texts, calls and other notificiation on ealier verisons of Andriod, allowing users to drive without disengaging their focus from the road.
